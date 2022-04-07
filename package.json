@@ -1,0 +1,32 @@
+{
+  "name": "hazesoft",
+  "version": "1.0.0",
+  "description": "Commandline tools",
+  "main": "index.js",
+  "preferGlobal": true,
+  "bin": "./commander.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gautam197/commandline.git"
+  },
+  "keywords": [
+    "commandline",
+    "tool",
+    "nodejs"
+  ],
+  "author": "Gautam Phuyal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gautam197/commandline/issues"
+  },
+  "homepage": "https://github.com/gautam197/commandline#readme",
+  "dependencies": {
+    "commander": "^9.1.0",
+    "inquirer": "^8.2.2",
+    "replace": "^1.2.1",
+    "shelljs": "^0.8.5"
+  }
+}

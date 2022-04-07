@@ -1,0 +1,10 @@
+cosnt User = require('../models/user.model')
+
+exports.{{userController}} = async function (req, res, next) {
+
+    try {
+        res.status(200).json({ status: 200, message: "Succesfully genereated Controller" });
+    } catch (e) {
+        return res.status(400).json({ status: 400, message: e.message });
+    }
+}

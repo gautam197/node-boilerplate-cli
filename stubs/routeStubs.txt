@@ -1,0 +1,9 @@
+const express = require("express");
+
+const UserController = require('../controllers/user.controller')
+
+const {{routeName}} = express.Router();
+
+{{routeName}}.get('/', {name}Controller.all);
+
+module.exports = {{routeName}};
